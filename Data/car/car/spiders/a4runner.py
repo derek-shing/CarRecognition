@@ -5,7 +5,7 @@ import urllib
 class A4runnerSpider(scrapy.Spider):
     name = '4runner'
     allowed_domains = ['www.google.com']
-    start_urls = ['https://www.google.com/search?q=toyota+Corolla&tbm=isch']
+    start_urls = ['https://www.google.com/search?q=toyota+Prius&tbm=isch']
 
     def parse(self, response):
         i=1
